@@ -9,6 +9,8 @@
           href="https://fonts.googleapis.com/css?family=Exo:600">
     <title>Movy Login</title>
   </head>
+  <div class="logo">
+    <img src="https://github.com/eugeniaaraujo/Movy_login/blob/main/Bitmap.jpg" >
   <div class="footer_content">
           <ul class="tabla">
             <li> <a href=""> FAQ </a> </li>
