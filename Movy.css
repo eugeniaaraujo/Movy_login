@@ -1,8 +1,25 @@
+body {
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
 .container {
-  width: 100%;
+  width: 100%
   background: url("./Bitmap.jpg") no-repeat center;
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
+}
+
+.central_box {
+  display: flex;
+  flex-direction: column;
+  width: 305px;
+  padding: 60px;
+  background: rgba(0, 0, 0, 0.8122);
+  border-radius: 5px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
