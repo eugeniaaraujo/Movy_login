@@ -9,8 +9,10 @@
           href="https://fonts.googleapis.com/css?family=Exo:600">
     <title>Movy Login</title>
   </head>
-  <div class="logo">
-    <img src="./main/Movy.jpg" >
+  <body>
+  <div class="container">
+   <img src="./main/Movy.png" alt="logo" class="logo">
+  </div>
   <div class="footer_content">
           <ul class="tabla">
             <li> <a href=""> FAQ </a> </li>
@@ -27,5 +29,5 @@
             <li> <a href=""> Contact Us </a> </li>
         </ul>
        </div>
-
+</body>
  
