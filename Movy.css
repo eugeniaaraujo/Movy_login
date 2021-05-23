@@ -60,15 +60,16 @@ body {
   border: none;
 }
 
-.central_box label {
-  color: #fff
-  margin-top: 0;
-  margin-bottom: 20px;
-}
 .login_options input {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.login_options label {
+  color: #fff
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .ayuda {
