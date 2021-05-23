@@ -36,7 +36,6 @@ body {
 }
 
 .central_box input {
-  width: 90px;
   height: 49px;
   box-sizing: border-box;
   border-radius: 5px;
@@ -49,7 +48,6 @@ body {
 }
 
 .central_box button  {
-  width: 90px;
   height: 49px;
   box-sizing: border-box;
   border-radius: 5px;
