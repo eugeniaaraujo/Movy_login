@@ -5,7 +5,9 @@ body {
 
 .container {
   width: 100%
+  height: 75%
   background: url("./Bitmap.jpg") no-repeat center;
+  background-position: top;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,9 +19,22 @@ body {
   flex-direction: column;
   width: 305px;
   padding: 60px;
-  background: rgba(0, 0, 0, 0.8122);
+  background: rgba(0, 0, 0, 0.700);
   border-radius: 5px;
   margin: auto;
   justify-content: center;
   align-items: center;
 }
+
+.central_box h1 {
+   text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 3 0px;
+  font-weight: 200;
+}
+
+
+
+
