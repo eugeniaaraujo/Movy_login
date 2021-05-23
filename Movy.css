@@ -36,5 +36,34 @@ body {
   font-weight: 200;
 }
 
+.central_box input {
+  width: 90px;
+  height: 49px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  padding: 0 0 0 20px;
+  outline: none;
+  background: #fff;
+  border: none;
+}
+
+.central_box button  {
+  width: 90px;
+  height: 49px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #fff;
+  padding: 0 0 0 20px;
+  outline: none;
+  background: #0578ff;
+  border: none;
+}
+
+
+
 
 
