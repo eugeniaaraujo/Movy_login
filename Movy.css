@@ -63,6 +63,22 @@ body {
   border: none;
 }
 
+.login-block label {
+  color: #fff
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.chechbox-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ayuda {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+}
 
 
 
