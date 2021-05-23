@@ -18,7 +18,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 305px;
-  height: 359px;
   padding: 60px;
   background: rgba(0, 0, 0, 0.700);
   border-radius: 5px;
