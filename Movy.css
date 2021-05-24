@@ -14,6 +14,28 @@ body {
   background-size: cover;
 }
 
+.logo {
+justify-content: flex-start;
+padding-left: 103px;
+padding-top: 57px;
+}
+
+.header-text {
+color: #fff;
+justify-content: flex-end;
+padding-right: 41x;
+padding-top: 40px;
+}  
+
+.header-text button  {
+  height: 45px;
+  width: 75px;
+  box-sizing: border-box;
+  font-size: 25px;
+  color: #fff;
+  background: #0578ff;
+}
+
 .central_box {
   display: flex;
   flex-direction: column;
