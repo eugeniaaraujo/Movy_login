@@ -15,7 +15,8 @@ body {
 }
 
 .header {
-height: 25%
+  height: 25%;
+  align-items: flex-start;
 }
 
 .logo {
@@ -43,44 +44,45 @@ padding-top: 40px;
 .central_box {
   display: flex;
   flex-direction: column;
-  width: 305px;
-  padding: 60px;
+  width: 440px;
+  height: 517px;
   background: rgba(0, 0, 0, 0.700);
-  border-radius: 5px;
-  margin: auto;
   justify-content: center;
   align-items: center;
 }
 
 .central_box h1 {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: #fff
   font-size: 36px;
-  margin-top: 0;
-  margin-bottom: 3 0px;
+  padding: 40px;
   font-weight: 200;
 }
 
 .central_box input {
   height: 49px;
+  width: 34 px;
   box-sizing: border-box;
-  border-radius: 5px;
-  margin-bottom: 20px;
   font-size: 14px;
-  padding: 0 0 0 20px;
-  outline: none;
   background: #fff;
   border: none;
+}
+
+.userinput {
+  padding-bottom: 0px 49px 117px 50px;
+}
+
+.passwordinput {
+  padding-bottom: 0px 49px 45px 50px;
 }
 
 .central_box button  {
   height: 49px;
   box-sizing: border-box;
   border-radius: 5px;
-  margin-bottom: 20px;
   font-size: 25px;
   color: #fff;
-  padding: 0 0 0 20px;
+  padding: 0 49px 15px 50px;
   outline: none;
   background: #0578ff;
   border: none;
