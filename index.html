@@ -10,34 +10,36 @@
 	</head>
   
 	<body>
-    		<div class="container">
-  		<header>
+        <div class="header">
    				<a href="">
    				<img src="https://github.com/eugeniaaraujo/Movy_login/blob/main/Movy.png" alt="Logo de Movy" class="logo">
    				</a>
-        
-				<div class="header-text">
  					<a class="register" href="">Register</a>
-					<a class="login" href=""><button>Login</button>
+				<button class="login">Login</button>
   				</div>
-  		</header>
-  
+    
+      <div class= "container">
   		<div class="central_box">
 			<h1> Inicia Sesión </h1>
   			<form action="">
   				<input type = "text" placeholder = "Email o número de teléfono" id = "user" class = "userinput">
-  				<input type = "password" placeholder = "Contraseña" id = "password" class = "password input">
+  				<input type = "password" placeholder = "Contraseña" id = "password" class = "passwordinput">
   				<button>Iniciar Sesión</button>
-  				<div class= "login_options">
-  					<input type="checkbox" id="recuerdame">
- 					<label>Recuerdame</label>
-  					<a href="" class="ayuda">Necesitas ayuda?</a>
-  				</div>
+          
+          <div class="login_options">
+          <div class="remember">
+          <label for="rememberMe"> <input type="checkbox" name="rememberMe" id="rememberMe">
+            Recuerdame</label>
+          </div>
+          <a href="" class="ayuda">Necesitas ayuda?</a>
+        </div>
   				<div class="facebook">
  	 				<img src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-5.png" alt="Logo de Facebook" class="fb_logo">
-  					<a href=""> Iniciar sesión con Facebook </a>
+  					<a href="" class = "fb_text"> Iniciar sesión con Facebook </a>
           			</div>  
-  				<div class="first_time">Primera vez en Movy?<a href="">Suscríbete ya.</a></div>
+  				<div class="first_time">
+            Primera vez en Movy? 
+            <a href="" class = "suscribe" ">Suscríbete ya.</a></div>
   			</form>
     		</div>
 		</div>
